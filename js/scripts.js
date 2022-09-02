@@ -26,8 +26,8 @@ $(document).scroll(function() {
 $(document).ready(function() {
 
     if( $(".slider").length > 0 ) {
-      i = 0;
       $('.slider').on('init', function(event, slick, currentSlide){
+        i = 0;
         $('.slider').find(".slide").each(function() {
           i++;
           $(this).attr("data-fancybox", "slider_1_"+i);
@@ -106,9 +106,9 @@ $(document).ready(function() {
     // ----------------
 
     if( $(".slider_2").length > 0 ) {
-
-      i = 0;
+      
       $('.slider_2').on('init', function(event, slick, currentSlide){
+        i = 0;
         $('.slider_2').find(".slide_2").each(function() {
           i++;
           $(this).attr("data-fancybox", "slider_2_"+i);
@@ -153,9 +153,9 @@ $(document).ready(function() {
     // ----------------
 
     if( $(".testimonial_slider").length > 0 ) {
-
-      i = 0;
+      
       $('.testimonial_slider').on('init', function(event, slick, currentSlide){
+        i = 0;
         $('.testimonial_slider').find(".testimonial_thumb").each(function() {
           i++;
           $(this).attr("data-fancybox", "testimonial_"+i);
@@ -297,7 +297,7 @@ $(document).ready(function() {
 
     // ----------------
 
-    $('a[href^="#"]').on('click', function (e) {
+    $('.main_nav a[href^="#"], a[href="#home"]').on('click', function (e) {
       e.preventDefault();
       var hrefAttr = $(this).attr("href");
       if( hrefAttr.length > 0 && hrefAttr != "#" ) {
