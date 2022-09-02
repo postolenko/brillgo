@@ -1,30 +1,884 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1500px) {
 
+/*-- Section 3 - Main Page --*/
 
+.inner_wrapp {
+    padding: 15px 20px 15px 20px;
+}
+
+.teacher {
+    width: 416px;
+}
+
+/*-- /Section 3 - Main Page --*/
 
 }
 
+@media only screen and (max-width: 1400px) {
+
+/*-- Header --*/
+
+.main_nav li a {
+    font-size: 14px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 4 - Main Page --*/
+
+.thumbnail {
+    width: calc(25% - 8px);
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.steps_wrapp {
+    margin: 63px 0 20px 0;
+}
+
+.steps_wrapp > div {
+    width: calc(50% - 40px);
+    margin: 25px 20px;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+h1 {
+    font-size: 29px;
+}
+
+/*-- Header --*/
+
+.header_top_row > .left {
+	display: none;
+}
+
+.header_top_row > .center {
+    width: 40%;
+    padding: 5px 5px 5px 0;
+}
+
+.header_top_row > .right {
+    width: 60%;
+}
+
+.main_nav {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_box_wrapp {
+    background-position: right center;
+}
+
+.promo_descript h3 {
+    font-size: 19px;
+    opacity: 1;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.inner_width {
+    max-width: 620px;
+}
+
+.form_box_title h2 {
+    font-size: 30px;
+}
+
+.tab_link {
+    min-height: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.tabs_border {
+    min-height: 466px;
+}
+
+.form_title h3 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.form_list li {
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+.input_wrapp {
+    margin: 16px 0;
+}
+
+.teacher {
+    left: 648px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.sect_6_mp {
+    padding: 50px 0 40px 0;
+}
+
+.steps_wrapp > div.step_item_shape_wrapp {
+    top: -82px;
+    left: 20px;
+}
+
+.step_item_title {
+    padding: 15px 25px 15px 25px;
+}
+
+.step_item_title h3 {
+    font-size: 20px;
+}
+
+.step_item_title h3 span {
+    font-size: 27px;
+}
+
+.soc_link {
+    width: 45px;
+    height: 48px;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+/*-- Section 9 - Main Page --*/
+
+.program_thumb_title h3 {
+    font-size: 25px;
+}
+
+.program_thumb_title_descript p {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.program_thumb_content {
+    padding: 0 15px 0 15px;
+}
+
+.program_thumb_content p {
+    padding: 9px 0;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/*-- /Section 9 - Main Page --*/
+
+/*-- Section 12 - Main Page --*/
+
+.two_cols_article {
+    margin: 40px 0 20px 0;
+    padding: 15px 35px 15px 35px;
+}
+
+.two_cols_article h2 {
+    font-size: 32px;
+    line-height: 47px;
+}
+
+.two_cols_article p {
+    padding: 9px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*-- /Section 12 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/*-- Section 3 - Main Page --*/
+
+.teacher {
+    width: 330px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 9 - Main Page --*/
+
+.sect_9_mp {
+    padding: 40px 0 12px 0;
+}
+
+.program_thumb {
+    width: calc(50% - 5px);
+    margin: 130px 2.5px 20px 2.5px;
+}
+
+/*-- /Section 9 - Main Page --*/
+
+/*-- Section 11 - Main Page --*/
+
+.sect_11_mp {
+    padding: 50px 0 30px 0;
+}
+
+.inst_thumbs_wrapp {
+    margin: 29px auto;
+    max-width: 679px;
+}
+
+.inst_thumb {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 11 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_templ > div:nth-child(1) {
+    padding: 10px 10px 2px 0;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Section 3 - Main Page --*/
+
+.teacher {
+	display: none;
+}
+
+.form_box_title {
+	padding: 0 0 15px 0;
+	text-align: center;
+}
+
+.inner_width {
+    margin: 0 auto;
+}
+
+.inner_wrapp:before {
+	display: none;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.step_item_shape img {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.steps_wrapp > div:nth-child(odd) {
+    top: 0;
+    width: 100%;
+}
+
+.steps_wrapp > div {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.step_item_line {
+	display: none;
+}
+
+.sect_6_shape {
+	display: none;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+/*-- Section 12 - Main Page --*/
+
+.sect_12_mp {
+    padding: 10px 0 20px 0;
+}
+
+.two_cols_article h2 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*-- /Section 12 - Main Page --*/
+
+}
 
 @media only screen and (max-width: 900px) {
 
+h2 {
+    font-size: 27px;
+    line-height: 37px;
+}
 
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.wrapper {
+	padding-top: 60px;
+}
+
+.visible_900 {
+	display: block;
+}
+
+/*-- Header --*/
+
+.header_site {
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
+	-moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
+}
+
+.header_top_row {
+	display: none;
+}
+
+.respmenubtn {
+	display: block;
+}
+
+.respmenubtn {
+	display: block;
+	position: absolute;
+	top: 11px;
+    right: 8px;
+}
+
+#resp_nav {
+	display: none;
+	max-width: 100vw;
+	width: 100%;
+	height: 100vh;
+    overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	padding: 60px 10px 50px 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 13;
+	background: #fff;
+}
+
+.main_nav {
+	display: block;
+}
+
+.main_nav li {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.main_nav li a {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.logo {
+    width: 52px;
+}
+
+.adress_resp {
+	justify-content: center;
+	-webkit-justify-content: center;
+	color: #262C3D;
+}
+
+.pin_black {
+	display: block;
+    width: 30px;
+    height: 24px;
+    background-size: contain;
+    background-image: url(img/pin_black.svg);
+    background-repeat: no-repeat;
+}
+
+.soc_list_resp {
+	margin: 20px 0;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.soc_list li a {
+    background: #525252;
+}
+
+/*-- /Header --*/
+
+/*-- Section 4 - Main Page --*/
+
+.form_box {
+    margin-bottom: 46px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.tag p {
+    font-size: 16px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 14 - Main Page --*/
+
+.gallery_thumb {
+    height: 255px;
+}
+
+/*-- /Section 14 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_templ > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer_templ > div:nth-child(2) {
+    width: calc(100% - 240px);
+    padding: 10px 10px 2px 0;
+}
+
+.logo_footer {
+    margin: 18px auto 18px auto;
+}
+
+/*-- /Footer --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+/*-- Section 3 - Main Page --*/
 
+.form_box {
+    margin-bottom: 30px;
+}
+
+.form_box_title h2 {
+    font-size: 25px;
+}
+
+.form_box_title p {
+    font-size: 16px;
+}
+
+.tab_link {
+    min-height: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.form_title h3 {
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.form_list li {
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+.btn_wrapp {
+    padding: 25px 0 20px 0;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.thumbnails {
+    margin: 15px -4px 30px -4px;
+}
+
+.thumbnail {
+    width: calc(50% - 8px);
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.sect_8_mp {
+    background-image: none;
+    background-color: #f9f7f7;
+    padding: 40px 0 20px 0;
+}
+
+.testimonial_slider {
+    margin: 25px -7px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 12 - Main Page --*/
+
+.two_cols_article > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.two_cols_article > .right_col {
+    width: 330px;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    padding: 10px 0;
+}
+
+/*-- /Section 12 - Main Page --*/
+
+/*-- Section 13 - Main Page --*/
+
+.callback_sect {
+    margin: 30px auto 10px auto;
+}
+
+/*-- /Section 13 - Main Page --*/
+
+/*-- Section 14 - Main Page --*/
+
+.sect_14_mp {
+    padding: 15px 0 15px 0;
+}
+
+.gallery {
+    margin: 20px -18px;
+}
+
+.gallery_thumb {
+	width: calc(50% - 18px);
+    height: 255px;
+}
+
+/*-- /Section 14 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Section 11 - Main Page --*/
+
+.inst_thumbs_wrapp {
+    margin: 29px -10px;
+}
+
+/*-- /Section 11 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 640px) {
+
+/*-- Section 11 - Main Page --*/
+
+.sect_11_mp {
+    padding: 40px 0 20px 0;
+}
+
+.inst_thumbs_wrapp {
+    margin: 20px 0;
+}
+
+.inst_thumb {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+/*-- /Section 11 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+.row {
+    padding: 0 15px;
+}
 
+/*-- Section 1 - Main Page --*/
+
+.promo_box_wrapp {
+    padding: 16px 15px 10px 15px;
+    background-position: 90% center;
+}
+
+.promo_descript h3 {
+    font-size: 16px;
+    opacity: 1;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.inner_wrapp {
+	padding: 0;
+	background-color: transparent;
+}
+
+.tab_list {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+    margin: 0;
+}
+
+.tab_list li:nth-child(1),
+.tab_list li:nth-child(2) {
+    width: 100%;
+    padding: 0;
+}
+
+.tabs_border {
+    min-height: auto;
+}
+
+.purple_pill {
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 9 - Main Page --*/
+
+.sect_9_mp {
+    padding: 40px 0 12px 0;
+}
+
+.h2_wrapp_3 p {
+    padding: 8px 0;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.program_thumb {
+    width: 100%;
+    margin: 130px 0 20px 0;
+}
+
+/*-- /Section 9 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_templ > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer_templ > div:nth-child(3) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Footer --*/
 
 }
 
-
 @media only screen and (max-width: 480px) {
 
+h1 {
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*-- Section 3 - Main Page --*/
+
+.form_title h3 {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.h2_wrapp h2 span {
+    font-size: 20px;
+}
+
+.thumbnail p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.h2_wrapp_2 h2 {
+    font-size: 20px;
+    line-height: 31px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.steps_wrapp > div.step_item_shape_wrapp {
+    left: 0;
+}
+
+.step_item_title {
+    padding: 15px 15px 15px 15px;
+}
+
+.step_item_content {
+    padding: 12px 15px 15px 15px;
+}
+
+.step_item_title h3 {
+    font-size: 18px;
+}
+
+.step_item_title h3 span {
+    font-size: 23px;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.sect_6_mp {
+    padding: 50px 0 23px 0;
+}
+
+/*-- /Section 7 - Main Page --*/
+
+/*-- Section 10 - Main Page --*/
+
+.callback_box h2 {
+    padding: 10px 0;
+}
+
+.callback_box .purple_pill {
+    margin: 13px 0;
+}
+
+/*-- /Section 10 - Main Page --*/
 	
+/*-- Section 14 - Main Page --*/
+
+.gallery {
+    margin: 20px 0;
+}
+
+.gallery_thumb {
+    width: 100%;
+    height: 255px;
+    margin: 9px 0;
+}
+
+.gallery_thumb:nth-child(1) {
+    width: 100%;
+}
+
+.gallery_thumb:nth-child(1) .gallery_thumb_descript p {
+	font-size: 16px;
+}
+
+/*-- /Section 14 - Main Page --*/
+
+/*-- Footer --*/
+
+.seo_wrapp > div {
+    width: 100%;
+    padding: 0;
+}
+
+.seo_list li {
+    text-align: center;
+}
+
+.soc_list_footer {
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.contacts_box div {
+    text-align: center;
+}
+
+.contacts_box .adress {
+	text-align: left;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+/*-- Section 4 - Main Page --*/
+
+.thumbnail {
+    min-height: 115px;
+    padding: 10px;
+}
+
+.thumbnail p {
+    font-size: 11px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 12 - Main Page --*/
+
+.callback_form_sect {
+    margin: 0;
+    padding: 20px 0 10px 0;
+}
+
+.callback_form_bg {
+	display: none;
+}
+
+.two_cols_article {
+    margin: 25px 0 15px 0;
+    padding: 15px 15px 15px 15px;
+}
+
+/*-- /Section 12 - Main Page --*/
+
+}
+
+@media only screen and (min-width: 901px) {
+
+	#resp_nav {
+		display: block !important;
+	}
+
 }
