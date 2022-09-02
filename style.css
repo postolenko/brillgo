@@ -1065,10 +1065,6 @@ textarea:focus {
 
 /*-- Section 3 - Main Page --*/
 
-.sect_3_mp {
-
-}
-
 .form_box {
     margin-bottom: 72px;
     position: relative;
@@ -1219,10 +1215,6 @@ textarea:focus {
     color: #F2F3F7;
 }
 
-.inputs_wrapp {
-
-}
-
 .input_wrapp {
     margin: 26px 0;
 }
@@ -1241,10 +1233,6 @@ textarea:focus {
     font-size: 20px;
     line-height: 49px;
     color: #262C3D;
-}
-
-.submit_wrapp {
-
 }
 
 .purple_pill {
@@ -1358,10 +1346,6 @@ textarea:focus {
     border-bottom: 1px solid transparent;
 }
 
-.form_list {
-
-}
-
 .form_list li {
     padding: 7px 0;
     font-size: 20px;
@@ -1372,10 +1356,6 @@ textarea:focus {
 
 .btn_wrapp {
     padding: 45px 0 25px 0;
-}
-
-.purple_pill {
-
 }
 
 .tabs {
@@ -1645,10 +1625,6 @@ textarea:focus {
     position: absolute;
     bottom: 6%;
     right: 0;
-}
-
-.h2_wrapp {
-
 }
 
 .h2_wrapp h3 {
@@ -1970,7 +1946,6 @@ textarea:focus {
 
 .slide_2 {
     display: block;
-    /*width: 312px;*/
 }
 
 .slide_2 .img_box {
@@ -2104,10 +2079,6 @@ textarea:focus {
     padding: 59px 0 48px 0;
 }
 
-.h2_wrapp {
-
-}
-
 .testimonial_slider {
     margin: 42px -7px;
 }
@@ -2122,7 +2093,6 @@ textarea:focus {
     align-items: flex-end;
     -webkit-align-items: flex-end;
     height: 331px;
-    /*width: 416px;*/
     position: relative;
     overflow: hidden;
     border-radius: 6px;
@@ -2216,10 +2186,6 @@ textarea:focus {
 
 .testimonial_thumb:hover .testimonial_slide_contant .play_btn {
     fill: #FFBC57;
-}
-
-.testimonial_slide_contant .slide_contant_title {
-
 }
 
 .testimonial_slide_contant .slide_contant_title h3 {
@@ -2622,10 +2588,6 @@ textarea:focus {
     padding: 4px 0;
 }
 
-.program_thumb_footer .purple_pill {
-
-}
-
 .program_thumb:hover .program_thumb_icon img {
     top: -135px;
 }
@@ -2706,18 +2668,6 @@ textarea:focus {
     padding: 97px 0 50px 0;
 }
 
-.h2_wrapp {
-
-}
-
-.h2_wrapp h2 {
-
-}
-
-.h2_wrapp p {
-
-}
-
 .inst_thumbs_wrapp {
     display: flex;
     display: -webkit-flex;
@@ -2729,7 +2679,6 @@ textarea:focus {
 }
 
 .inst_thumb {
-    /*width: 302px;*/
     width: calc(25% - 20px);
     height: 302px;
     margin: 10px;
@@ -2818,10 +2767,6 @@ textarea:focus {
 
 .h2_wrapp_center {
     text-align: center;
-}
-
-.h2_wrapp_center h2 {
-
 }
 
 .two_cols_article {
