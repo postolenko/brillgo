@@ -329,13 +329,13 @@ $(document).ready(function() {
 
     // ---------------
 
-    Fancybox.bind('[data-fancybox]', {
-      helpers: {
-            media: true
-        },
-        youtube: {
-            autoplay: 1
-        }
-    });
+    // Fancybox.bind('[data-fancybox]', {
+    //   helpers: {
+    //         media: true
+    //     },
+    //     youtube: {
+    //         autoplay: 1
+    //     }
+    // });
 
 });
