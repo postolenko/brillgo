@@ -17,6 +17,9 @@ function getHeaderParams() {
     $(".resp_header_height").css({
       "height" : "auto"
     });
+    $("#resp_nav").css({
+        "height" : "auto"
+      });
   }
 }
 
