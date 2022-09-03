@@ -1,8 +1,8 @@
 function getHeaderParams() {
   if(bodyWidth <= 900) {
-    topCoord = $(".header_top").height();
-    $(".resp_header_height").height($(".resp_header").height());
+    topCoord = $(".header_top").height();    
     if($(document).scrollTop() > topCoord) {
+      $(".resp_header_height").height($(".resp_header").height());
       $(".resp_header").addClass("fixed");
       $("#resp_nav").css({
         "height" : $(window).height() + "px"
