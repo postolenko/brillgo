@@ -411,6 +411,8 @@ textarea:focus {
 .header_top_row {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     padding: 2px 0 0 0;
 }
 
@@ -646,6 +648,10 @@ textarea:focus {
 
 .orange_link:hover {
     border-bottom: 1px solid #FFBC57;
+}
+
+.resp_header_height {
+    height: 60px;
 }
 
 .header_nav {

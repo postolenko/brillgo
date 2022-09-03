@@ -1,29 +1,42 @@
+function getHeaderParams() {
+  if(bodyWidth <= 900) {
+    topCoord = $(".header_top").height();
+    $(".resp_header_height").height($(".resp_header").height());
+    if($(document).scrollTop() > topCoord) {
+      $(".resp_header").addClass("fixed");
+      $("#resp_nav").css({
+        "height" : $(window).height() + "px"
+      });
+    } else {
+      $(".resp_header").removeClass("fixed");
+      $("#resp_nav").css({
+        "height" : $(window).height() - $(".resp_header_height").offset().top + "px"
+      });
+    }
+  } else {
+    $(".resp_header_height").css({
+      "height" : "auto"
+    });
+  }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
-
-$(window).load(function() {
-
-
-
-});
-
 $(window).resize(function() {
-
-
-
+  getHeaderParams();
 });
 
 $(document).scroll(function() {
-
-
-
+  getHeaderParams();
 });
 
 $(document).ready(function() {
+
+    getHeaderParams();
 
     if( $(".slider").length > 0 ) {
       $('.slider').on('init', function(event, slick, currentSlide){
