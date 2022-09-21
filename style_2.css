@@ -6,18 +6,24 @@
 
 .promo_box_wrapp {
     margin-top: 15px;
-    height: 543px;
-    padding: 16px 50px 7px 50px;
+    min-height: 543px;
+    outline: 1px solid red;
+    padding: 20px 30px 90px 30px;
     position: relative;
-    /*background: linear-gradient(90.09deg, #C1C5E1 0.07%, #C0C8E4 65.72%);*/
-    background-image: url(img/promo_bg_2.jpg);
+    background: linear-gradient(90.09deg, #C1C5E1 0.07%, #C0C8E4 65.72%);
+    /*background-image: url(img/promo_bg_2.jpg);*/
+    /*background-image: url(img/baner.jpg);*/
     background-position: right bottom;
     background-size: cover;
     border-radius: 5px;
     -webkit-border-radius: 5px;
 }
 
-/*.promo_shape {
+.inner_width {
+    max-width: 900px;
+}
+
+.promo_shape {
     display: block;
     width: auto;
     height: auto;
@@ -26,7 +32,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-}*/
+}
 
 /*.promo_box_wrapp:before {
     display: block;
@@ -41,30 +47,99 @@
 }*/
 
 .promo_descript {
-    max-width: 780px;
+    /*max-width: 780px;*/
     position: relative;
     z-index: 2;
 }
 
 .promo_descript h1 {
-    padding: 2px 0;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 48.9738px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #6035DF 0%, #3474FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .promo_descript h3 {
-    font-weight: 600;
-    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 50px;
     line-height: 120%;
-    letter-spacing: .05em;
-    color: #FFF;
+    color: #090909;
     opacity: .7;
 }
 
 .promo_descript p.p_small {
-    padding: 10px 0 3px 0;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FAFAFA;
+    padding: 7px 0 3px 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #262C3D;
 }
 
 /*-- /Section 1 - Main Page --*/
+
+@media only screen and (max-width: 1300px) {
+    .promo_descript h1 {
+        font-size: 35px;
+    }
+
+    .promo_descript h3 {
+        font-size: 35px;
+    }
+
+    .promo_descript p.p_small {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .promo_descript h3 {
+        font-size: 29px;
+    }
+    .promo_descript p.p_small {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .promo_box_wrapp {
+        padding: 20px 20px 90px 20px;
+    }
+
+    .promo_descript h1 {
+        font-size: 27px;
+    }
+
+    .promo_descript h3 {
+        font-size: 20px;
+    }
+
+    .promo_descript p.p_small {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .promo_descript h1 {
+        font-size: 21px;
+    }
+    .promo_descript h3 {
+        font-size: 18px;
+    }
+    .promo_descript p.p_small {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .promo_box_wrapp {
+        min-height: 452px;
+    }
+}

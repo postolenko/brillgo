@@ -837,7 +837,7 @@ textarea:focus {
     padding-bottom: 5px;
 }
 
-.promo_box_wrapp {
+/*.promo_box_wrapp {
     margin-top: 15px;
     padding: 16px 50px 7px 50px;
     border-radius: 10px;
@@ -847,9 +847,9 @@ textarea:focus {
     background-position: center;
     background-size: cover;
     overflow: hidden;
-}
+}*/
 
-.promo_box_wrapp:before {
+/*.promo_box_wrapp:before {
     display: block;
     content: "";
     width: 100%;
@@ -859,16 +859,24 @@ textarea:focus {
     position: absolute;
     top: 0;
     left: 0;
-}
+}*/
 
 .promo_descript {
-    max-width: 780px;
+    /*max-width: 780px;*/
     position: relative;
     z-index: 2;
 }
 
 .promo_descript h1 {
-    padding: 2px 0;
+    font-weight: 700;
+    font-size: 48.9738px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #6035DF 0%, #3474FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .promo_descript h3 {
