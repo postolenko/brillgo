@@ -9,37 +9,27 @@
     min-height: 200px;
     padding: 17px 50px 6px 50px;
     position: relative;
-    /*background: linear-gradient(90.06deg, #C4C9EB 54.4%, rgba(192, 200, 228, 0) 69.88%)*/
-    /*background-image: url(img/promo_bg_2.jpg);*/
-    /*background-image: url(img/baner.jpg);*/
     background-position: right bottom;
     background-size: cover;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     overflow: hidden;
-    background-color: #E5E5E5;
+    background-color: #c1c5e2;
 }
 
 .promo_shape {
     display: block;
-    min-width: 100%;
-    min-height: 100%;
+    /*min-width: 100%;*/
+    width: auto;
+    height: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-/*.promo_box_wrapp:before {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90.06deg, #C4C9EB 74.4%, rgba(192, 200, 228, 0) 75.88%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}*/
+.promo_shape_resp {
+    display: none;
+}
 
 .promo_descript {
     max-width: 780px;
@@ -87,7 +77,7 @@
         max-width: 590px;
     }
     .promo_box_wrapp {
-        padding: 30px 20px 20px 20px;
+        padding: 30px 30px 20px 30px;
     }
     .promo_descript h1 {
         font-size: 27px;
@@ -124,32 +114,61 @@
 }
 
 @media only screen and (max-width: 900px) {
-/*    .promo_descript h3 {
-        font-size: 29px;
+    .promo_box_wrapp {
+        padding: 24px 20px 15px 20px;
     }
-    .promo_descript p.p_small {
-        font-size: 20px;
-        line-height: 30px;
-    }*/
+    .promo_descript {
+        max-width: 320px;
+    }
+    .promo_descript h1 {
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    .promo_descript h3 {
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    .promo_inner_width {
+        max-width: 290px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-/*    .promo_box_wrapp {
-        padding: 20px 20px 90px 20px;
+    .promo_box_wrapp {
+        min-height: 330px;
     }
-
+    .promo_shape {
+        display: none;
+    }
+    .promo_shape_resp {
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .promo_descript {
+        max-width: 320px;
+    }
     .promo_descript h1 {
-        font-size: 27px;
+        font-size: 26px;
+        line-height: 120%;
     }
-
     .promo_descript h3 {
-        font-size: 20px;
+        padding: 5px 0;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 120%;
     }
-
+    .promo_inner_width {
+        max-width: 290px;
+    }
     .promo_descript p.p_small {
-        font-size: 18px;
-        line-height: 27px;
-    }*/
+        padding: 7px 0 3px 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
