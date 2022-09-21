@@ -33,7 +33,7 @@
     right: 0;
 }
 
-/*.promo_box_wrapp:before {
+.promo_box_wrapp:before {
     display: block;
     content: "";
     width: 100%;
@@ -42,13 +42,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 3;
-}*/
+    z-index: 2;
+}
 
 .promo_descript {
     /*max-width: 780px;*/
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .promo_descript h1 {
