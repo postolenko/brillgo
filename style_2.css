@@ -6,7 +6,7 @@
 
 .promo_box_wrapp {
     margin-top: 15px;
-    /*min-height: 543px;*/
+    min-height: 200px;
     padding: 17px 50px 6px 50px;
     position: relative;
     /*background: linear-gradient(90.06deg, #C4C9EB 54.4%, rgba(192, 200, 228, 0) 69.88%)*/
@@ -105,12 +105,20 @@
 
 @media only screen and (max-width: 1024px) {
 
+    .promo_descript {
+        max-width: 460px;
+    }
+
     .promo_descript h1 {
         font-size: 21px;
     }
 
     .promo_descript h3 {
-        font-size: 21px;
+        font-size: 19px;
+    }
+
+    .promo_inner_width {
+        max-width: 390px;
     }
 
 }
