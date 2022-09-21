@@ -83,8 +83,11 @@
     }
 }
 @media only screen and (max-width: 1240px) {
+    .promo_descript {
+        max-width: 590px;
+    }
     .promo_box_wrapp {
-        padding: 17px 20px 6px 20px;
+        padding: 30px 20px 20px 20px;
     }
     .promo_descript h1 {
         font-size: 27px;
@@ -96,8 +99,20 @@
 
 @media only screen and (max-width: 1124px) {
     .promo_descript {
-        max-width: 450px;
+        max-width: 480px;
     }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .promo_descript h1 {
+        font-size: 21px;
+    }
+
+    .promo_descript h3 {
+        font-size: 21px;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
