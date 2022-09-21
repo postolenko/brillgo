@@ -97,6 +97,11 @@
         line-height: 35px;
     }
 }
+@media only screen and (max-width: 1124px) {
+    .promo_box_wrapp:before {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 900px) {
     .promo_descript h3 {
